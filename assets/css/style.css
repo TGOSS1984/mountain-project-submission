@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 /* Asterix Overide default styles */
 * {
@@ -90,7 +91,7 @@
     background-color: #e6b800;
   }
 
-  /* Regions Section */
+/* Regions Section */
   .regions {
     padding: 40px 20px;
     background-color: #e6e6e6;
@@ -113,7 +114,7 @@
     background-color: white;
     width: 350px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 0;
     overflow: hidden;
   }
   
@@ -136,6 +137,18 @@
   }
 
   .hover-over:hover {
+    color: #ffcc00;
+  }
+
+   /* Footer Styles */
+   footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer a:hover {
     color: #ffcc00;
   }
 
