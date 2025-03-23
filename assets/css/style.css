@@ -187,8 +187,12 @@
 /* Contact Section */
   .contact {
     padding: 50px 20px;
-    background-color: #e6e6e6;
     text-align: center;
+  }
+
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
   }
   
    /* Footer Styles */
