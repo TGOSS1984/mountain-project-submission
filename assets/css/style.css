@@ -35,19 +35,27 @@
     right: 0;
     z-index: 10;
   }
-  nav ul {
-    display: flex;
-    justify-content: center;
-  }
+
+ /* Mobile-first Navbar */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Stack items vertically on small screens */
+  text-align: center;
+  display: none; /* Initially hidden on small screens */
+}
   
   nav ul li {
-    margin: 0 20px;
+    margin: 10px 0;
   }
   
   nav ul li a {
     color: white;
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
   }
   
   nav ul li a:hover {
@@ -60,6 +68,41 @@
     line-height: 75px;
     margin: 0 0.5rem;
   }
+
+  /* Hamburger Menu */
+#hamburger {
+  display: block;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+  background: none;
+  border: none;
+}
+
+#hamburger:focus {
+  outline: none;
+}
+
+/* large screens (above 768px) show the navbar items in a row */
+@media (min-width: 768px) {
+  nav ul {
+    display: flex; /* Display horizontally on large screens */
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  nav ul li {
+    margin: 0 20px;
+  }
+
+  #hamburger {
+    display: none; /* Hide the hamburger icon on larger screens */
+  }
+}
+
+nav ul.show {
+  display: flex;
+}
 
    /* Main content*/
    .main-content {
