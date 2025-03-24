@@ -62,11 +62,21 @@ nav ul {
     color: #ffcc00;
   }
 
-  #logo {
+  #logo-header {
     color: white;
     font-size: 280%;
     line-height: 75px;
     margin: 0 0.5rem;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-container {
+    margin-right: 10px;
+    margin-top: -5px;
   }
 
   /* Hamburger Menu */
