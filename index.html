@@ -48,12 +48,12 @@
     <button id="hamburger">&#9776;</button>
 
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#regions">Tour Regions</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#equipment">Equipment</a></li>
-      <li><a href="#terms">Terms & Conditions</a></li>
+      <li><a href="#home" aria-label="Got to the top of the page">Home</a></li>
+      <li><a href="#about" aria-label="Got to the About section">About</a></li>
+      <li><a href="#regions" aria-label="Got to the Tour Regions section">Tour Regions</a></li>
+      <li><a href="#contact" aria-label="Got to the Contact section">Contact</a></li>
+      <li><a href="#equipment" aria-label="Got to the Equipment section">Equipment</a></li>
+      <li><a href="#terms" aria-label="Got to the Terms & Conditions section">Terms & Conditions</a></li>
     </ul>
 
   </nav>
@@ -142,22 +142,22 @@
           <p class="mt-4">Got any questions? Whether it be about times/locations, route difficulty or any other queries do not hesitate to get in touch!</p>
       </div>
       <div class="col-12 col-md-10 col-lg-8 mb-4">
-          <form class="row g-3 sharp-corners">
+          <form action="/submit" method="post" class="row g-3 sharp-corners">
               <div class="col-lg-4">
                   <label for="full-name" class="form-label">Full Name</label>
-                  <input type="text" class="form-control" id="full-name">
+                  <input type="text" class="form-control" id="full-name" required>
               </div>
               <div class="col-lg-4">
                   <label for="phonenumber" class="form-label">Phone number</label>
-                  <input type="number" class="form-control" id="phonenumber">
+                  <input type="number" class="form-control" id="phonenumber" required>
               </div>
               <div class="col-lg-4">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email">
+                  <input type="email" class="form-control" id="email" required>
               </div>
               <div class="col-12">
                   <label for="message" class="form-label">Message</label>
-                  <textarea class="form-control" id="message" rows="3"></textarea>
+                  <textarea class="form-control" id="message" rows="3" required></textarea>
               </div>
               <div class="col-12">
                   <button type="submit" class="btn btn-warning">Send</button>

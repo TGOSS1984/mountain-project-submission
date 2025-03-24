@@ -42,7 +42,7 @@ nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  flex-direction: column; /* Stack items vertically on small screens */
+  flex-direction: column; /* items vertical on small screens */
   text-align: center;
   display: none; /* Initially hidden on small screens */
 }
@@ -98,6 +98,7 @@ nav ul {
   #hamburger {
     display: none; /* Hide the hamburger icon on larger screens */
   }
+
 }
 
 nav ul.show {
