@@ -188,8 +188,13 @@ nav ul.show {
   .region-card h3 {
     font-size: 1.8rem;
     padding: 10px;
+    height:90px;
+    text-align: center;
     background-color: #333;
     color: white;
+    display: flex;
+    justify-content: center; /* Optional, but ensures horizontal centering if needed */
+    align-items: center;     /* Vertically centers the text */
   }
   
   .region-card p {
