@@ -193,8 +193,8 @@ nav ul.show {
     background-color: #333;
     color: white;
     display: flex;
-    justify-content: center; /* Optional, but ensures horizontal centering if needed */
-    align-items: center;     /* Vertically centers the text */
+    justify-content: center;
+    align-items: center;
   }
   
   .region-card p {
