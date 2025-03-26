@@ -5,6 +5,10 @@ Welcome to the **Tom Goss UK Winter Mountain Guided Tours** website. This site i
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
+- [Testing](#testing)
+- [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 
 ## Description
@@ -21,7 +25,7 @@ Users can book their winter mountain tours, learn about the different regions, v
 
 - **Homepage**: Introduction to Tom Goss' UK Winter Mountain Guided Tours with a call to action to book a tour.
 - **About Section**: Details about the services and expertise Tom brings to his winter mountain hiking tours.
-- **Regions Section**: Highlighting various tour regions such as the Lake District, Scotland, Wales, and the Peak District.
+- **Regions Section**: Highlighting various tour regions such as the Lake District, Scotland, Wales, and the Peak District with gallery pages.
 - **Booking Section**: A direct link to book a tour and join an adventure.
 - **Contact Section**: Contact form for any inquiries or questions.
 - **Social Media Links**: Links to Facebook, Instagram, and Twitter.
