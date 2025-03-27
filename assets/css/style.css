@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
-
 /* Asterix Overide default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
  /* Body and General Styles */
  body {
     font-family: 'Roboto', sans-serif;
@@ -35,7 +33,6 @@
     right: 0;
     z-index: 10;
   }
-
  /* Mobile-first Navbar */
 nav ul {
   list-style: none;
@@ -61,25 +58,23 @@ nav ul {
   nav ul li a:hover {
     color: #ffcc00;
   }
-
   #logo-header {
     color: white;
     font-size: 280%;
     line-height: 75px;
     margin: 0 0.5rem;
   }
-
   .header-container {
     display: flex;
     align-items: center;
     color: white;
   }
-
   .logo-container {
     margin-right: 10px;
     margin-top: -5px;
+    width: 100px;
+    height: 60px;
   }
-
   /* Hamburger Menu */
 #hamburger {
   display: block;
@@ -89,11 +84,9 @@ nav ul {
   background: none;
   border: none;
 }
-
 #hamburger:focus {
   outline: none;
 }
-
 /* large screens (above 768px) show the navbar items in a row */
 @media (min-width: 768px) {
   nav ul {
@@ -101,21 +94,16 @@ nav ul {
     justify-content: center;
     flex-direction: row;
   }
-
   nav ul li {
     margin: 0 20px;
   }
-
   #hamburger {
     display: none; /* Hide the hamburger icon on larger screens */
   }
-
 }
-
 nav ul.show {
   display: flex;
 }
-
    /* Main content*/
    .main-content {
     background-image: url('../images/cribgochandsnowdon.jpg');
@@ -152,7 +140,6 @@ nav ul.show {
   .btn-book-now:hover {
     background-color: #e6b800;
   }
-
 /* Regions Section */
   .regions {
     padding: 40px 20px;
@@ -202,13 +189,10 @@ nav ul.show {
     padding: 10px;
     font-size: 1rem;
   }
-
   .hover-over:hover {
     color: #ffcc00;
   }
-
   /* About Section */
-
   .about {
     padding: 50px 20px;
     background-color: #414040;
@@ -225,7 +209,6 @@ nav ul.show {
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
-
 /* Booking Section */
   .booking {
     padding: 50px 20px;
@@ -233,7 +216,6 @@ nav ul.show {
     color: white;
     text-align: center;
   }
-
   .booking h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -243,13 +225,11 @@ nav ul.show {
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
-
 /* Contact Section */
   .contact {
     padding: 50px 20px;
     text-align: center;
   }
-
   .contact h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -262,8 +242,16 @@ nav ul.show {
     padding: 20px;
     text-align: center;
   }
-
   footer a:hover {
     color: #ffcc00;
   }
-
+  @media (max-width: 800px) {
+    #logo-header {
+        font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 500px) {
+    #logo-header {
+        display: none;
+    }
+  }
