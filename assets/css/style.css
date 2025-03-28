@@ -266,7 +266,7 @@ nav ul.show {
     }
   }
 
-  /* Booking form page styles */
+  /* Booking form html page styles */
 .booking-container {
   max-width: 600px;
   margin: 0 auto;
@@ -337,4 +337,122 @@ nav ul.show {
 
 .submit-btn:focus {
   outline: none;
+}
+
+/* Equipment html Page Styles */
+
+#equip-image {
+  height: 600px;
+  width: 100%;
+  background-image: url('../images/equipment.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 143.8px;
+  margin-bottom: 20px;
+}
+
+#equip-text {
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 400px;
+  height: 200px;
+  padding-top: 30px;
+  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  top: 500px;
+  right: 20%;
+  position: absolute;
+}
+
+
+/* Media Query for smaller screens (example: max-width: 768px) */
+@media (max-width: 768px) {
+  #equip-text {
+    width: 80%; /* Reduce the width for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+    top: 50%; /* Move the element vertically to the middle of the screen */
+    left: 50%; /* Move the element horizontally to the middle of the screen */
+    transform: translate(-50%, -50%); /* Center the element both vertically and horizontally */
+    padding-left: 20px; /* Adjust padding for smaller screens */
+    padding-top: 30px; /* Adjust top padding for smaller screens */
+  }
+}
+
+/* Equipment Content */
+
+.equip-content {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.equip-content h2 {
+  text-align: center;
+  color: #2C3E50;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 1.1em;
+  color: #555;
+  text-align: justify;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:  #ecf0f1;
+  border-left: 4px solid darkgray;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  background-color: #ffcc00;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta:hover {
+  background-color: #e6b800;
+  color: black;
+  cursor: pointer;
+}
+
+.equip-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.equip-content li {
+  font-size: 1.1em;
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.equip-content li::before {
+  content: "\2022";  /* Unicode for a bullet */
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: darkgray;
+}
+
+.equipment-list {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
