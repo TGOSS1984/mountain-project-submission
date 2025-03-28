@@ -14,19 +14,19 @@
       type="image/png"
       sizes="32x32"
       href="assets/favicon/icons8-snow-capped-mountain-emoji-32.png"
-    />
+     >
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
       href="assets/favicon/icons8-snow-capped-mountain-emoji-16.png"
-    />
+     >
     <link
-    rel="icon"
-    type="image/png"
-    sizes="96x96"
-    href="assets/favicon/icons8-snow-capped-mountain-emoji-96.png"
-  />
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="assets/favicon/icons8-snow-capped-mountain-emoji-96.png"
+    >
   <!-- Bootstrap CSS Link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -58,10 +58,16 @@
   </header>  
 
 <!-- Main Content -->
-<div id="equip-image"></div>
-<div id="equip-text">
-    <h2>Equipment Required</h2>
-    <h3>Essentials for your Winter Tour</h3>
+<div id="content-wrapper">
+  <div id="equip-container">
+      <div class="equip-wrapper">
+          <img src="assets/images/equipment.jpg" alt="Equipment on a table" class="equip-image">
+          <div id="equip-text">
+              <h2>Equipment Required</h2>
+              <h3>Essentials for your Winter Tour</h3>
+          </div>
+      </div>
+  </div>
 </div>
 
 <section class="max-width">
@@ -76,24 +82,26 @@
 
         <div class="equipment-list">
             <h3>Essential Equipment for a Winter Mountain Tour:</h3>
+
             <ul>
-                <li>Waterproof, insulated jacket</li>
-                <li>Thermal base layers (top and bottom)</li>
-                <li>Insulated gloves and warm hat</li>
-                <li>Sturdy, waterproof hiking boots with good traction</li>
-                <li>Snow gaiters to keep snow out of your boots</li>
-                <li>Ice Axe & Crampons / Ice spikes</li>
-                <li>Warm socks (preferably merino wool or synthetic)</li>
-                <li>Headlamp with extra batteries</li>
-                <li>Compass and map of the area</li>
-                <li>Portable phone charger</li>
-                <li>Waterproof backpack or dry bags to keep gear dry</li>
-                <li>Avalanche safety gear (beacon, shovel, probe) if necessary</li>
-                <li>High-energy, easy-to-carry food (e.g., energy bars, nuts)</li>
-                <li>Sunscreen and sunglasses (even in winter, the sun's rays can be intense)</li>
-                <li>First aid kit (with blister care and pain relief)</li>
-                <li>Bivvy Bag</li>
-            </ul>
+              <li><strong>Waterproof, insulated jacket</strong> - Stay dry and warm with a good jacket. The weather can be unpredictable, so make sure you have a solid, breathable outer layer that can handle the cold, wind, and rain.</li>
+              <li><strong>Thermal base layers (top and bottom)</strong> - These are your first line of defense against the cold. A moisture-wicking base layer will keep you dry while insulating your body heat.</li>
+              <li><strong>Insulated gloves and warm hat</strong> - Keep your hands and head warm! Insulated gloves will make a huge difference when temperatures drop, and a cozy hat will prevent body heat from escaping.</li>
+              <li><strong>Sturdy, waterproof hiking boots with good traction</strong> - You’ll want boots that can handle the terrain, keep your feet dry, and provide solid grip for icy or slippery paths. Comfort and durability are key!</li>
+              <li><strong>Snow gaiters to keep snow out of your boots</strong> - Snow gaiters will help keep the powder from getting into your boots, ensuring your feet stay dry and comfortable throughout your hike.</li>
+              <li><strong>Ice Axe & Crampons / Ice spikes</strong> - These are essential for winter mountain trekking. Crampons give you the traction to safely walk on ice, and an ice axe is useful for self-arresting if you slip on steep, icy slopes.</li>
+              <li><strong>Warm socks (preferably merino wool or synthetic)</strong> - Keep those toes cozy! Merino wool is breathable and warm, while synthetic socks dry faster if they get wet. Either way, bring a few extra pairs.</li>
+              <li><strong>Headlamp with extra batteries</strong> - Whether you’re heading out early or staying out late, a headlamp is essential. And always pack extra batteries—you don’t want to be left in the dark!</li>
+              <li><strong>Compass and map of the area</strong> - Even if you’re relying on a GPS, having a compass and physical map can be a lifesaver if your tech fails. Always be prepared to navigate the old-school way.</li>
+              <li><strong>Portable phone charger</strong> - Your phone might be your lifeline for emergency situations, so keep it charged with a portable charger. You don’t want to run out of battery in the middle of nowhere.</li>
+              <li><strong>Waterproof backpack or dry bags to keep gear dry</strong> - A good waterproof backpack or dry bags will protect your gear from getting soaked in case of rain or snow. No one wants wet clothes or equipment halfway through a hike.</li>
+              <li><strong>Avalanche safety gear (beacon, shovel, probe) if necessary</strong> - If you're heading into avalanche-prone areas, make sure you're fully equipped with a beacon, probe, and shovel to stay safe. Your safety is the most important thing.</li>
+              <li><strong>High-energy, easy-to-carry food (e.g., energy bars, nuts) & lots of fluid!</strong> - Keep your energy up with portable snacks like energy bars, nuts, and plenty of water or sports drinks. You’ll need fuel to keep going! Generally a minimum of 1.5ltr of watre is recommended but could need more on longer days out.</li>
+              <li><strong>Sunscreen and sunglasses (even in winter, the sun's rays can be intense)</strong> - Yes, even in winter! Snow can reflect the sun’s rays, so protect your skin and eyes with sunscreen and UV-protective sunglasses.</li>
+              <li><strong>First aid kit (with blister care and pain relief)</strong> - A basic first aid kit is a must for any adventure. Be sure to pack blister protection and pain relievers for those little aches and pains along the way.</li>
+              <li><strong>Bivvy Bag</strong> - In case of an emergency or an unexpected overnight stay, a bivvy bag is a compact, lightweight shelter that can keep you safe and warm until help arrives or the weather clears.</li>
+          </ul>
+
         </div>
 
         <div class="cta">
@@ -120,7 +128,7 @@
     <p>&copy; 2025 Tom Goss UK Winter Mountain Guided Tours | All Rights Reserved</p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script src="assets/js/script.js" type="js"></script>
+  <script src="assets/js/script.js"></script>
   <script>
     const hamburger = document.getElementById('hamburger');
     const navMenu = document.querySelector('nav ul');

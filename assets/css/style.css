@@ -176,13 +176,15 @@ nav ul.show {
   .region-card h3 {
     font-size: 1.8rem;
     padding: 10px;
-    height:90px;
+    height:110px;
     text-align: center;
     background-color: #333;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
   }
   
   .region-card p {
@@ -341,42 +343,70 @@ nav ul.show {
 
 /* Equipment html Page Styles */
 
-#equip-image {
-  height: 600px;
-  width: 100%;
-  background-image: url('../images/equipment.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
+#content-wrapper {
+  display: flex; 
+  justify-content: center; 
   margin-top: 143.8px;
-  margin-bottom: 20px;
+}
+
+/* Container for image and text */
+
+#equip-container {
+  position: relative; 
+  display: inline-block; 
+  max-width: 100%; 
+}
+
+.equip-wrapper {
+  position: relative; 
+  width: 100%; 
+}
+
+.equip-image {
+  width: auto; 
+  height: auto; 
+  display: block; 
+  max-width: 100%; 
 }
 
 #equip-text {
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  position: absolute; 
+  bottom: 50px; 
+  right: 50px; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white; 
+  padding: 10px; 
+  border-radius: 5px; 
+  max-width: 300px; 
   width: 400px;
   height: 200px;
-  padding-top: 30px;
-  padding-left: 10px;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  top: 500px;
-  right: 20%;
-  position: absolute;
+  font-size: 80%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
-
-/* Media Query for smaller screens (example: max-width: 768px) */
+/* Media Query for responsiveness */
 @media (max-width: 768px) {
+  /* On smaller screens, center the #equip-text */
   #equip-text {
-    width: 80%; /* Reduce the width for smaller screens */
-    height: auto; /* Allow height to adjust based on content */
-    top: 50%; /* Move the element vertically to the middle of the screen */
-    left: 50%; /* Move the element horizontally to the middle of the screen */
-    transform: translate(-50%, -50%); /* Center the element both vertically and horizontally */
-    padding-left: 20px; /* Adjust padding for smaller screens */
-    padding-top: 30px; /* Adjust top padding for smaller screens */
+      position: absolute; 
+      bottom: 10px; 
+      left: 50%; 
+      transform: translateX(-50%); 
+      width: auto; 
+      max-width: 90%; 
+      padding: 8px; 
+  }
+}
+
+@media (max-width: 480px) {
+  /* Further adjustments for very small screens (e.g., phones) */
+  #equip-text {
+      font-size: 0.9em; 
+      bottom: 10px; 
+      left: 50%;
+      transform: translateX(-50%);
+      max-width: 85%; 
   }
 }
 
@@ -411,8 +441,9 @@ nav ul.show {
   margin-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color:  #ecf0f1;
-  border-left: 4px solid darkgray;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
