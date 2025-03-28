@@ -435,24 +435,17 @@ nav ul.show {
 }
 
 .equip-content ul {
-  list-style-type: none;
+  list-style-type: disc;
   padding: 0;
+  padding-left: 10px;
+  list-style-position: outside;
 }
 
 .equip-content li {
   font-size: 1.1em;
   margin: 10px 0;
-  padding-left: 20px;
+  padding-left: 10px;
   position: relative;
-}
-
-.equip-content li::before {
-  content: "\2022";  /* Unicode for a bullet */
-  font-size: 1.5em;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: darkgray;
 }
 
 .equipment-list {
@@ -462,3 +455,4 @@ nav ul.show {
   margin-top: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
