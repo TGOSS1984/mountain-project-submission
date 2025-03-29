@@ -110,7 +110,7 @@ nav ul.show {
 }
    /* Main content*/
    .main-content {
-    background-image: url('../images/maincribgoch.jpg');
+    background-image: url('../images/maincribgoch1600px.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -378,10 +378,11 @@ nav ul.show {
 }
 
 .equip-image {
-  width: auto; 
+  width: 100%; 
   height: auto; 
   display: block; 
-  max-width: 100%; 
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 #equip-text {
@@ -456,18 +457,26 @@ nav ul.show {
 /* Equipment Content */
 
 .max-width {
-  max-width: 1800px;
+  max-width: 1200px;
+  width:100%;
   display: block;
   margin: 0 auto;
 }
 
 .equip-content {
-  width: 80%;
+  width: 100%;
+  max-width: 1200px;
   margin: 50px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Flexbox Layout */
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  justify-content: flex-start; /* Align items at the top */
+  align-items: stretch; /* Ensure all items stretch to full width */
+  min-height:400px;
 }
 
 .equip-content h2 {
