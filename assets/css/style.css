@@ -284,12 +284,13 @@ nav ul.show {
 .booking-container {
   max-width: 600px;
   margin: 0 auto;
-  margin-top: 143.8px; 
+  margin-top: calc(143.8px + 7vh); /* Example: Adding a dynamic value based on screen height */ 
   margin-bottom: 20px;  
   background-color: #fff;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
 }
 
 /* Header styling */
