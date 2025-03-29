@@ -406,7 +406,6 @@ nav ul.show {
   font-size: 1.6rem;
 }
 
-
 /* Media Query for responsiveness */
 @media (max-width: 768px) {
   /* On smaller screens, center the #equip-text */
@@ -418,12 +417,12 @@ nav ul.show {
       width: auto; 
       max-width: 90%; 
       padding: 8px; 
-      min-width: 150px;  /* Set a minimum width */
-      max-height: 150px; /* Set a minimum height */
-      display: flex;              /* Enables flexbox */
-      flex-direction: column;     /* Stack elements vertically */
-      justify-content: center;    /* Vertically center content */
-      align-items: center;        /* Horizontally center content */
+      min-width: 150px;
+      max-height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
   #equip-text h2 {
@@ -435,10 +434,8 @@ nav ul.show {
   }
 }
 
-
-
 @media (max-width: 480px) {
-  /* Further adjustments for very small screens (e.g., phones) */
+  /* Further adjustments for very small screens */
   #equip-text {
       bottom: 10px; 
       left: 50%;
@@ -482,6 +479,7 @@ nav ul.show {
 }
 
 @media (max-width: 768px) {
+  /* decrease text size for small screens */
   .equip-content h2 {
     font-size: 1.5rem;
   }
@@ -489,6 +487,7 @@ nav ul.show {
 }
 
 @media (max-width: 480px) {
+  /* decrease text size for very small screens */
   .equip-content h2 {
     font-size: 1rem;
   }
