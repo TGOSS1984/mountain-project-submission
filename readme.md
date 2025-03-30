@@ -8,10 +8,13 @@ Welcome to the **Tom Goss UK Winter Mountain Guided Tours** website. This site i
 - [Testing](#testing)
 - [Bugs](#bugs)
 - [Deployment](#deployment)
+- [Technologies Used](#technologiesused)
 - [Credits](#credits)
 
 
 ## Description
+
+### User Experience
 
 This website is for individuals looking to explore the UK’s most iconic winter landscapes through guided mountain hikes. Tom Goss, an experienced hiker, offers tours across various regions of the UK, including:
 - Lake District
@@ -20,6 +23,8 @@ This website is for individuals looking to explore the UK’s most iconic winter
 - Peak District
 
 Users can book their winter mountain tours, learn about the different regions, view required hiking equipment, and get in touch for inquiries through the website. The site is designed to be responsive and user-friendly, providing a seamless booking experience and access to important information about the tours.
+
+ADD MORE INFO HERE********
 
 ## Features
 
@@ -31,4 +36,18 @@ Users can book their winter mountain tours, learn about the different regions, v
 - **Social Media Links**: Links to Facebook, Instagram, and Twitter.
 - **Footer with Legal Information**: Terms & Conditions, copyright, and contact information.
 
+## Testing
 
+### Browser Testing
+
+### Code Validation
+
+### Lighthouse Test
+
+## Bugs
+
+## Deployment
+
+## Technologies Used
+
+## Credits

@@ -139,6 +139,8 @@ nav ul.show {
     border-radius: 5px;
     color: black;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
   }
   
   .btn-book-now:hover {
@@ -253,6 +255,8 @@ nav ul.show {
     font-weight: bold;
     color: black;
     background-color: #ffcc00;
+    text-transform: uppercase;
+    letter-spacing: 4px;
   }
 
   .btn.btn-warning:hover {
@@ -346,6 +350,8 @@ nav ul.show {
   font-size: 1.1rem;
   cursor: pointer;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .submit-btn:hover {
@@ -456,104 +462,84 @@ nav ul.show {
 
 /* Equipment Content */
 
-.max-width {
-  max-width: 1200px;
-  width:100%;
-  display: block;
-  margin: 0 auto;
-}
-
-.equip-content {
-  width: 100%;
-  max-width: 1200px;
-  margin: 50px auto;
+.accordion-container {
+  border:1px solid #ccc;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Flexbox Layout */
-  display: flex;
-  flex-direction: column; /* Stack the content vertically */
-  justify-content: flex-start; /* Align items at the top */
-  align-items: stretch; /* Ensure all items stretch to full width */
-  min-height:400px;
+  width: auto;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
 }
 
-.equip-content h2 {
-  text-align: center;
-  color: #2C3E50;
-  font-size: 1.8rem;
-  margin-bottom: 20px;
+.accordion-container h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
   letter-spacing: 4px;
+  width: 100%;
   text-transform: uppercase;
+  font-size: 2rem;
 }
 
 @media (max-width: 768px) {
-  /* decrease text size for small screens */
-  .equip-content h2 {
+  .accordion-container h2 {
     font-size: 1.5rem;
   }
-  
 }
 
-@media (max-width: 480px) {
-  /* decrease text size for very small screens */
-  .equip-content h2 {
-    font-size: 1rem;
-  }
-  
-}
-
-.paragraph {
-  font-size: 1.1em;
-  color: #555;
-  text-align: justify;
-  margin-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color:  #ecf0f1;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.cta {
-  text-align: center;
-  font-size: 1.2em;
-  font-weight: bold;
-  color: black;
+.accordion-container p {
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
   padding: 10px;
-  background-color: #ffcc00;
-  border-radius: 5px;
-  margin-top: 20px;
+  width: 100%;
+  background-color: lightgray;
+  font-size: 1rem;
 }
 
-.cta:hover {
-  background-color: #e6b800;
-  color: black;
-  cursor: pointer;
-}
-
-.equip-content ul {
-  list-style-type: disc;
-  padding: 0;
-  padding-left: 10px;
-  list-style-position: outside;
-}
-
-.equip-content li {
-  font-size: 1.1em;
+.accordion-container h3 {
   margin: 10px 0;
-  padding-left: 10px;
-  position: relative;
+  padding-bottom: 10px;
+  letter-spacing: 4px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1.6rem;
 }
 
-.equipment-list {
-  background-color: #ecf0f1;
-  padding: 20px;
-  border-radius: 5px;
-  margin-top: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+@media (max-width: 768px) {
+  .accordion-container h3 {
+    font-size: 1.2rem;
+  }
 }
 
+.accordion-container a {
+  width:100%;
+}
+
+.accordion {
+  --bs-accordion-btn-bg:  lightgrey; 
+  --bs-accordion-active-bg: rgb(95, 95, 95);
+  --bs-accordion-active-color: white;
+  --bs-accordion-bg: lightgrey;
+  --bs-accordion-color: black;
+  --bs-accordion-btn-focus-box-shadow: none;
+    padding:10px;
+}
+
+.font-upper {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.accordion-body ul {
+  text-align: left;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+  transition: all 0.5s;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
