@@ -24,7 +24,6 @@ This website has been built to be responsive on both mobile devices & larger scr
 - [**Deployment**](#deployment)    
 - [**Testing**](#testing)
     - [Browser and Device Testing](#browser-and-device-testing)
-    - [Device and Responsive Testing](#device-and-responsive-testing)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
     - [Lighthouse Tests](#lighthouse-tests)
@@ -224,7 +223,7 @@ Lighthouse Homepage test results -
 
     - I checked that this site was responsive using not only Browserstack but also devtools device toolbar, checking different screen sizes
     - I confirmed that the navigation, header/logo, about, contact us, booking form and equipment sections/pages are all readable and easy to understand
-    - I have confirmed that both the contact us section & the booking page form works: requires entries in all fileds (using required attribute) will, only accpect email in the email field and the submit buttons work. 
+    - I have confirmed that both the contact us section & the booking page form works: requires entries in all fileds (using required attribute) will, only accept email in the email field and the submit buttons work. 
 
 ### Solved Bugs
 
