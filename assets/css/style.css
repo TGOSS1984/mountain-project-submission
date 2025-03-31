@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Asterix Overide default styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
  /* Body and General Styles */
+
  body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -24,6 +27,7 @@
   }
   
   /* Header/Nav Styles */
+
   header {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px 20px;
@@ -33,7 +37,9 @@
     right: 0;
     z-index: 10;
   }
+
  /* Mobile-first Navbar */
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -79,7 +85,9 @@ nav ul {
     width: 100px;
     height: 53px;
   }
+
   /* Hamburger Menu */
+
 #hamburger {
   display: block;
   cursor: pointer;
@@ -91,7 +99,9 @@ nav ul {
 #hamburger:focus {
   outline: none;
 }
+
 /* large screens (above 768px) show the navbar items in a row */
+
 @media (min-width: 768px) {
   nav ul {
     display: flex; /* Display horizontally on large screens */
@@ -108,7 +118,9 @@ nav ul {
 nav ul.show {
   display: flex;
 }
-   /* Main content*/
+   
+/* Main content*/
+
    .main-content {
     background-image: url('../images/maincribgoch1600px.webp');
     background-size: cover;
@@ -146,7 +158,9 @@ nav ul.show {
   .btn-book-now:hover {
     background-color: #e6b800;
   }
+
 /* Regions Section */
+
   .regions {
     padding: 40px 20px;
     background-color: #e6e6e6;
@@ -221,7 +235,9 @@ nav ul.show {
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
+
 /* Booking Section */
+
   .booking {
     padding: 50px 20px;
     background-color: #414040;
@@ -239,7 +255,9 @@ nav ul.show {
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
+
 /* Contact Section */
+
   .contact {
     padding: 50px 20px;
     text-align: center;
@@ -264,6 +282,7 @@ nav ul.show {
   }
   
    /* Footer Styles */
+
    footer {
     background-color: #222;
     color: white;
@@ -285,10 +304,11 @@ nav ul.show {
   }
 
   /* Booking form html page styles */
+
 .booking-container {
   max-width: 600px;
   margin: 0 auto;
-  margin-top: calc(143.8px + 7vh); /* Example: Adding a dynamic value based on screen height */ 
+  margin-top: calc(143.8px + 7vh); 
   margin-bottom: 20px;  
   background-color: #fff;
   padding: 30px;

@@ -220,11 +220,17 @@ Lighthouse Homepage test results -
   <img src="assets/images/lighthouse-equipment-score.PNG" alt="Screenshot of equipment lighthouse result">
 </p>
 
+**General Site Testing**
+
+    - I checked that this site was responsive using not only Browserstack but also devtools device toolbar, checking different screen sizes
+    - I confirmed that the navigation, header/logo, about, contact us, booking form and equipment sections/pages are all readable and easy to understand
+    - I have confirmed that both the contact us section & the booking page form works: requires entries in all fileds (using required attribute) will, only accpect email in the email field and the submit buttons work. 
+
 ### Solved Bugs
 
 During testing on the HTML Validator/CSS Validator & Lighthouse I found the following bugs/errors which were fixed to improve performance scores -
 
-    - When testing on HTMl validator, discovered that more than one H1s were is use - this was corrected
+    - When testing on HTMl validator, discovered that more than one H1 was is use - this was corrected and helped with best practice score
     - When testing on lighthouse, loading times were initially slow. This was caused by images on page. They needed resizing and also needed to adjust some aspect ratios. I also discovered that images that were not onscreen could use 'lazy loading'. Adjusting these things improved the performance score considerably.
     - Content Layout Shift. On the equipment page I orginally had an unordered list which was a rather large wall of text. There also were no explicit width px set. This caused slow down on the page. I decided to replace with bootsrap accordion and ensured width was added which imporved performance and also led to better visual look.
     - Laregst Contentful Paint - this was caused by the hero image on the home page being too large, all images were resized and optimised which led to improved performance
@@ -253,7 +259,7 @@ No unfixed bugs
     
 ## Credits
 
-    - For the code used in the content section , the Portfolio project by code institute was used. Whilst initially from bootstrap, the adjusted code fit to what was required on the page as it had already deleted elements
+    - For the code used in the contact section , the Portfolio project by code institute was used. Whilst initially from bootstrap, the adjusted code fit to what was required on the page as it had already deleted elements
     - Whilst code was not copied directly, inspiration was taken from some of the code in the code institute love running project
     - Used code institute location 'action' for both contact & booking forms link (https://formdump.codeinstitute.net/)
     - Bootsrap was used for the accordion section on the equipment page (link below)
