@@ -237,6 +237,7 @@ During testing on the HTML Validator/CSS Validator & Lighthouse I found the foll
 
     - For the code used in the content section , the Portfolio project by code institute was used. Whilst initially from bootstrap, the adjusted code fit to what was required on the page
     - Whilst code was not copied directly, inspiration was taken from the code institute love running project
+    - Used code institute location 'action' for both contact & booking forms link (https://formdump.codeinstitute.net/)
     - Bootsrap was used for the accordion section on the equipment page (link below)
     - Fav Icons taken from icons8 website (link below)
     - PNG image on logo taken from pngimg website (link below)
