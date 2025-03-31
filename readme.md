@@ -116,9 +116,8 @@ Users can book their winter mountain tours, learn about the different regions, v
 </p>
 
 ### Features for future Development
- - **Gallery/Detailed Route Descriptions & Prices**: Make the Region Cards clickable to see gallery of photos from these routes along with detailed information on route difficulty/length/location start & end points etc along with pricing information.
- - **Terms & Conditions**: The Terms & Conditions contained in the footer would be a clickable link to a T&Cs page with full details
-
+ - **Gallery/Detailed Route Descriptions & Prices**: Make the Region Cards clickable to see gallery of photos from these routes along with detailed information on route difficulty/length/location start & end points etc along with pricing information. Attribute tag has been kept here with a hash in the href and a comment to show that this is a placeholder for future development.
+ - **Terms & Conditions**: The Terms & Conditions contained in the footer would be a clickable link to a T&Cs page with full details. Attribute tag has been kept here with a hash in the href and a comment to show that this is a placeholder for future development.
 
 ### Design
 
